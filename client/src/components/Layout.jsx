@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 export default function Layout(){
     return(
         <main>
-            <Header/>
+            <Header username ={username}/>
             <Outlet/>
         </main>
     );
